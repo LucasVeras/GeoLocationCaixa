@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 //import SelectionDialog
-//import SCL AlertView
+//import SCL Aler tView
 
 public enum LocationError: Error {
     case AuthorizationDenied
