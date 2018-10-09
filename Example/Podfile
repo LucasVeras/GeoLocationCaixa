@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GeoLocationCaixa_Example' do
+  pod 'GeoLocationCaixa', :path => '../'
+
+  target 'GeoLocationCaixa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
