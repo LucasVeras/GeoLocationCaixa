@@ -7,17 +7,39 @@
 //
 
 import UIKit
+import GeoLocationCaixa
+import CoreLocation
 
 class ViewController: UIViewController {
 
+    let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.locationManager.requestWhenInUseAuthorization()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func buttonClicked(_ sender: Any) {
+        getLocation()
+    }
+    
+    private func getLocation() {
+        //        GCLocation.shared.testDialog()
+        GCLocation.shared.getLocation { (location, error) in
+            if let errorResponse = error {
+                switch errorResponse {
+                case LocationError.AuthorizationNotDetermined:
+                    
+                    
+                    break
+                default:
+                    break
+                }
+            } else {
+                print(location!.coordinate)
+            }
+        }
     }
 
 }

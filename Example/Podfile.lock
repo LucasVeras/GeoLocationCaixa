@@ -1,0 +1,16 @@
+PODS:
+  - GeoLocationCaixa (0.1.0)
+
+DEPENDENCIES:
+  - GeoLocationCaixa (from `../`)
+
+EXTERNAL SOURCES:
+  GeoLocationCaixa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GeoLocationCaixa: 6505f229acfb6958cf5f9ca83cf30191412a7c98
+
+PODFILE CHECKSUM: 553292c69c381338d078cf959f00ce71f8bce8d6
+
+COCOAPODS: 1.5.3

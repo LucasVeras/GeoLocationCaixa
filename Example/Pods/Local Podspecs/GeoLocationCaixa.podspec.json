@@ -1,0 +1,23 @@
+{
+  "name": "GeoLocationCaixa",
+  "version": "0.1.0",
+  "summary": "Componente da CAIXA para pegar geolocalização do device e mandar para o Analytics",
+  "description": "TODO: Componente da CAIXA para pegar geolocalização do device e mandar para o Analytics, feito em swift.",
+  "homepage": "https://github.com/LucasVeras/GeoLocationCaixa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lucas Veras Aguiar Cardoso": "lucas.a.cardoso@capgemini.com"
+  },
+  "source": {
+    "git": "https://github.com/LucasVeras/GeoLocationCaixa.git",
+    "tag": "0.1.0"
+  },
+  "swift_version": "4.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GeoLocationCaixa/Classes/**/*"
+}
