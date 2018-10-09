@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeoLocationCaixa'
-  s.version          = '1.0.1'
+  s.version          = '1.0.1' 
   s.summary          = 'Componente da CAIXA para pegar geolocalização do device e mandar para o Analytics'
 
 # This description is used to generate tags and improve search results.
