@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 //import SelectionDialog
-//import SCL Aler tView
+import SCLAlertView
 
 public enum LocationError: Error {
     case AuthorizationDenied
@@ -63,7 +63,9 @@ open class GCLocation: NSObject, CLLocationManagerDelegate {
     }
     
     public func testDialog() {
-        print("TESTE")
+        // Get started
+        SCLAlertView().showInfo("Important info", subTitle: "You are great")
+        
 //        let dialog = SelectionDialog(title: "Dialog", closeButtonTitle: "Close")
 //        dialog.addItem(item: "I have icon :)", icon: UIImage(named: "Icon1")!)
 //        dialog.addItem(item: "I have icon and handler :D", icon: UIImage(named: "Icon2")!, didTapHandler: { () in
@@ -82,16 +84,18 @@ open class GCLocation: NSObject, CLLocationManagerDelegate {
 //        dialog.show()
     }
     
-    public func getLocation(completion: @escaping LocationClosure) {        
-        completionHandler = completion
-
-        if CLLocationManager.authorizationStatus() == .authorizedAlways || CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
-            locationManager.startUpdatingLocation()
-        } else if CLLocationManager.authorizationStatus() == .notDetermined {
-            executionCompleted(location: nil, error: LocationError.AuthorizationNotDetermined)
-        } else if CLLocationManager.authorizationStatus() == .denied {
-            executionCompleted(location: nil, error: LocationError.AuthorizationDenied)
-        }
+    public func getLocation(completion: @escaping LocationClosure) {
+        // Get started
+        SCLAlertView().showInfo("Important info", subTitle: "You are great")
+//        completionHandler = completion
+//
+//        if CLLocationManager.authorizationStatus() == .authorizedAlways || CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
+//            locationManager.startUpdatingLocation()
+//        } else if CLLocationManager.authorizationStatus() == .notDetermined {
+//            executionCompleted(location: nil, error: LocationError.AuthorizationNotDetermined)
+//        } else if CLLocationManager.authorizationStatus() == .denied {
+//            executionCompleted(location: nil, error: LocationError.AuthorizationDenied)
+//        }
     }
     
 }

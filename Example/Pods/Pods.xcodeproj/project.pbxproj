@@ -7,68 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11FD608F216D4BAE00372517 /* GCLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD608E216D4BAD00372517 /* GCLocation.swift */; };
-		3E9251373FF96B02B626574CCE253EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		40C3558D8AEEC4BDD3E61C6C4072D0B1 /* Pods-GeoLocationCaixa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFDCD16EA36A9B7BE86AF7327344A32 /* Pods-GeoLocationCaixa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2437AD920D1D9A0E2C92146DCADB7285 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE4BF03522D630A9A85406BCC384BDB /* SCLAlertView.framework */; };
+		2DCFC62A8702B25AA7F145EA9BC39C85 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */; };
+		3BBBAFEF8AF378E663DC57F5824487A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0CE97CA3FFFB1C6D26C7FD5816DD49 /* Foundation.framework */; };
+		406B79ECC22425F1E185599705635C46 /* GeoLocationCaixa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 862C3CF9ED2B91AF696E70F809B6360C /* GeoLocationCaixa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F81854A973F9363C3CF8F5A9EC7C692 /* Pods-GeoLocationCaixa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7895DE64D04442604DB882BCCC8FE71 /* Pods-GeoLocationCaixa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5072FF650091B85A029FE89A605B1F44 /* GCLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C62D1488471CBE78FDE45EECA53288F /* GCLocation.swift */; };
+		5337E45A7DD925A036B82960437005B8 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */; };
 		58B7205C4E5524F3A5E45B1BDD1E4B3A /* Pods-GeoLocationCaixa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA63BC11434B0A128B03CADB9D8353 /* Pods-GeoLocationCaixa_Tests-dummy.m */; };
-		AB0C3E32A601A919B4E1CA1131C43283 /* GeoLocationCaixa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEBB977A45567084B6565ACE37C3ED0 /* GeoLocationCaixa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECF670BF48D98653BEB2E439E5358571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F0A275F5E21D0FBCBD6BEFA9BF790AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FACD4B860B72D40658F7710AA2C3A0B8 /* Pods-GeoLocationCaixa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA85F37A87053244833D491704D7C80 /* Pods-GeoLocationCaixa_Example-dummy.m */; };
-		FD0F5FF8A52A6C65D0178915E13F207E /* GeoLocationCaixa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353DEA1F56AC52E0073ACF40B0C94C9 /* GeoLocationCaixa-dummy.m */; };
+		5EA58FFA01646F3B33139D95C501E94F /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC16F7AD93F57AA9DD681ED020B8080 /* SCLAlertView-dummy.m */; };
+		69AB4F75CB7A32FB7D9E030DF383E01E /* GeoLocationCaixa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00236A30E95DFF3CEB841739BA057F84 /* GeoLocationCaixa-dummy.m */; };
+		89DBBE68E70F1030DF935FAB7E47793B /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0455558A11C28325FCB8EE37AD233C19 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A656C96F74846D172094ED6095244202 /* Pods-GeoLocationCaixa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFDCD16EA36A9B7BE86AF7327344A32 /* Pods-GeoLocationCaixa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52F25EA167A2BA0CDDAD452A70C7D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0CE97CA3FFFB1C6D26C7FD5816DD49 /* Foundation.framework */; };
+		E1C361A56AB951F70487A2C310464234 /* Pods-GeoLocationCaixa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA85F37A87053244833D491704D7C80 /* Pods-GeoLocationCaixa_Example-dummy.m */; };
+		ECF670BF48D98653BEB2E439E5358571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0CE97CA3FFFB1C6D26C7FD5816DD49 /* Foundation.framework */; };
+		EFDF5AB9D28B54350ED385B243FBC7FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0CE97CA3FFFB1C6D26C7FD5816DD49 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		242B509503E21ABA2700F0C221478AC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8923DA5206BE35272F2CE07756D9F2A3;
-			remoteInfo = GeoLocationCaixa;
-		};
 		2A3FDEFD28C2282F0ED32A43EBC18DB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F77138169A5B5C1A3FDE0EF6D59DD824;
+			remoteGlobalIDString = 2D0C217A715E3304FA77F0FA8D592A0E;
 			remoteInfo = "Pods-GeoLocationCaixa_Example";
+		};
+		362E9C7B9088473E93816DCDE1F70ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4565A293997E913E58C4BA7AFBA02741;
+			remoteInfo = SCLAlertView;
+		};
+		9D327EE99EBBA0C1FE0FCF8A1E20D2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4565A293997E913E58C4BA7AFBA02741;
+			remoteInfo = SCLAlertView;
+		};
+		BAF8B969B94920670A9331EF658A5575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 502200534B0D021320B336B2352A0852;
+			remoteInfo = GeoLocationCaixa;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00236A30E95DFF3CEB841739BA057F84 /* GeoLocationCaixa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoLocationCaixa-dummy.m"; sourceTree = "<group>"; };
 		02734B1BA207DF782A458AA7A54E5DE6 /* Pods-GeoLocationCaixa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoLocationCaixa_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0B0D411C0E74FC8C5902BEDE8C3597A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		119BE77FEF4CB224F5004FE5FAFCFF80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		11FD608D216D4BAD00372517 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		11FD608E216D4BAD00372517 /* GCLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCLocation.swift; sourceTree = "<group>"; };
+		0455558A11C28325FCB8EE37AD233C19 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		0C19482911AA508A4DBC74954CE07429 /* GeoLocationCaixa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeoLocationCaixa.framework; path = GeoLocationCaixa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2E111A388DDCA4AA65A4732F633A42 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		1CD980CE6B010A5CC2E23221A6643D94 /* GeoLocationCaixa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GeoLocationCaixa.modulemap; sourceTree = "<group>"; };
 		20EF9E714DB5F2B4B73D4BAC1C724899 /* Pods-GeoLocationCaixa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoLocationCaixa_Example-frameworks.sh"; sourceTree = "<group>"; };
 		224CD13A914AE805DF6669E460BB08C9 /* Pods-GeoLocationCaixa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoLocationCaixa_Example.modulemap"; sourceTree = "<group>"; };
 		22AA63BC11434B0A128B03CADB9D8353 /* Pods-GeoLocationCaixa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoLocationCaixa_Tests-dummy.m"; sourceTree = "<group>"; };
-		2FEBB977A45567084B6565ACE37C3ED0 /* GeoLocationCaixa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoLocationCaixa-umbrella.h"; sourceTree = "<group>"; };
+		37DB804383F1A66EE27CD2E6E8E971C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EFDCD16EA36A9B7BE86AF7327344A32 /* Pods-GeoLocationCaixa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoLocationCaixa_Example-umbrella.h"; sourceTree = "<group>"; };
 		3FB53C3B20FB298711A5FEB7BCEE42B7 /* Pods-GeoLocationCaixa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoLocationCaixa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5353DEA1F56AC52E0073ACF40B0C94C9 /* GeoLocationCaixa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoLocationCaixa-dummy.m"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		658DDAAAD800DAA821194E35EAEFF31A /* Pods_GeoLocationCaixa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoLocationCaixa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C5F0887F8F2C5B8098682EE35C193EA /* GeoLocationCaixa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoLocationCaixa.xcconfig; sourceTree = "<group>"; };
+		4155D351CD705A3797B23053053C648D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4D40D10FC822489C99A9F823282E3C65 /* GeoLocationCaixa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GeoLocationCaixa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		68446EF0E6AFB56A5E78CD3C4E812210 /* GeoLocationCaixa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoLocationCaixa-prefix.pch"; sourceTree = "<group>"; };
+		6DDFDAB86040FAA3732026A6A8267A8C /* GeoLocationCaixa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoLocationCaixa.xcconfig; sourceTree = "<group>"; };
 		707D1A1915D4DD2DAF31235C029837F9 /* Pods-GeoLocationCaixa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoLocationCaixa_Tests.modulemap"; sourceTree = "<group>"; };
-		73522B978E5C45D20CF4902A99115B6E /* GeoLocationCaixa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoLocationCaixa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		794158EA676535BD8C0C46236738A61C /* GeoLocationCaixa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GeoLocationCaixa.modulemap; sourceTree = "<group>"; };
-		7F718C69839F37E95DFE6F84A4A86F56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		7B29FFE123CFB35F2DF48623D8A7D6C9 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
 		816D0D6B575BD48541E2F172752CDC2F /* Pods-GeoLocationCaixa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoLocationCaixa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		82A5987A9CB66CD16CE55A46E4D36F35 /* Pods-GeoLocationCaixa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoLocationCaixa_Example.release.xcconfig"; sourceTree = "<group>"; };
 		840170FB0F8012070A18E1B9801464CB /* Pods-GeoLocationCaixa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoLocationCaixa_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		862C3CF9ED2B91AF696E70F809B6360C /* GeoLocationCaixa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoLocationCaixa-umbrella.h"; sourceTree = "<group>"; };
 		87E4E925653D5C1640AC924A75FCAF57 /* Pods-GeoLocationCaixa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoLocationCaixa_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FBCDF43826598A267651A976FF44C2F /* GeoLocationCaixa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoLocationCaixa-prefix.pch"; sourceTree = "<group>"; };
-		B32C04A34633C950C1608085371A95CD /* Pods_GeoLocationCaixa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoLocationCaixa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C62D1488471CBE78FDE45EECA53288F /* GCLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCLocation.swift; path = GeoLocationCaixa/Classes/GCLocation.swift; sourceTree = "<group>"; };
+		8CC16F7AD93F57AA9DD681ED020B8080 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9574B1C18AD79A30CACDA38FC9E781BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD2B9BAAA57D9EBA4292A203EE68E13 /* Pods_GeoLocationCaixa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoLocationCaixa_Tests.framework; path = "Pods-GeoLocationCaixa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC670DAC419E5F2470B3B0AE6B8459F /* Pods_GeoLocationCaixa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoLocationCaixa_Example.framework; path = "Pods-GeoLocationCaixa_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF85EDA67668F2A87E05C94973FA07DC /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
 		B85AFEDAFA33BFA1A7227676299D14CF /* Pods-GeoLocationCaixa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoLocationCaixa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0CE97CA3FFFB1C6D26C7FD5816DD49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BC225FBCDA9FD4C0864447D92DB18F5A /* Pods-GeoLocationCaixa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoLocationCaixa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BEA85F37A87053244833D491704D7C80 /* Pods-GeoLocationCaixa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoLocationCaixa_Example-dummy.m"; sourceTree = "<group>"; };
+		C1E3256B85F9E89681DDBA2FA8B15C18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CDE4BF03522D630A9A85406BCC384BDB /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20E086980CB437FB000171A7410D458 /* Pods-GeoLocationCaixa_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoLocationCaixa_Tests-resources.sh"; sourceTree = "<group>"; };
+		D359ECB868B80C86E14260A772E7FBFE /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7895DE64D04442604DB882BCCC8FE71 /* Pods-GeoLocationCaixa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoLocationCaixa_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DE4EBD340DA4B9D499ADB92E70BCB92C /* GeoLocationCaixa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GeoLocationCaixa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E0EFE7B1EA1672BD5105408EF6C4FDAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E230543CDFD78C4E0BAEBD5EC4DC1ABC /* Pods-GeoLocationCaixa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoLocationCaixa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9569D8C4C05335FD869AE110CC8974E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +105,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38C9091F7DD5109B656169E22F811333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBBAFEF8AF378E663DC57F5824487A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BC8A59AA97DF4FDEF63C7251D783475 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,33 +121,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		815B05E1A8574830BF56A18BE85A20E0 /* Frameworks */ = {
+		B5C16F6EA44932A07E90C2C2061D83A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9251373FF96B02B626574CCE253EC6 /* Foundation.framework in Frameworks */,
+				EFDF5AB9D28B54350ED385B243FBC7FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		938D2AE46BC8630EC72B1F8FDECB11E3 /* Frameworks */ = {
+		D51F75151A43E0D14CCBD348C59DC69D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A275F5E21D0FBCBD6BEFA9BF790AE4 /* Foundation.framework in Frameworks */,
+				C52F25EA167A2BA0CDDAD452A70C7D35 /* Foundation.framework in Frameworks */,
+				2437AD920D1D9A0E2C92146DCADB7285 /* SCLAlertView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11FD608C216D4BAD00372517 /* Classes */ = {
+		21236440975E0D8924F5FBFD0C9D1478 /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				11FD608D216D4BAD00372517 /* .gitkeep */,
-				11FD608E216D4BAD00372517 /* GCLocation.swift */,
+				53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */,
+				79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */,
+				261B10EE7D4B771695C1B274A158CD5B /* Support Files */,
 			);
-			name = Classes;
-			path = GeoLocationCaixa/Classes;
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		261B10EE7D4B771695C1B274A158CD5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9574B1C18AD79A30CACDA38FC9E781BE /* Info.plist */,
+				AF85EDA67668F2A87E05C94973FA07DC /* SCLAlertView.modulemap */,
+				1B2E111A388DDCA4AA65A4732F633A42 /* SCLAlertView.xcconfig */,
+				8CC16F7AD93F57AA9DD681ED020B8080 /* SCLAlertView-dummy.m */,
+				7B29FFE123CFB35F2DF48623D8A7D6C9 /* SCLAlertView-prefix.pch */,
+				0455558A11C28325FCB8EE37AD233C19 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		2AEE6F29D7B86CF00DE466D7EEB8FA53 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC0CE97CA3FFFB1C6D26C7FD5816DD49 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		3927E73FC21098B80B1F138F058640F1 /* Pods-GeoLocationCaixa_Example */ = {
@@ -131,29 +192,13 @@
 			path = "Target Support Files/Pods-GeoLocationCaixa_Example";
 			sourceTree = "<group>";
 		};
-		49E978BD5901E7C7BBE259A4199A2EE3 /* Support Files */ = {
+		526E92C1D4D8C5E30AA332A2CD8931D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				794158EA676535BD8C0C46236738A61C /* GeoLocationCaixa.modulemap */,
-				6C5F0887F8F2C5B8098682EE35C193EA /* GeoLocationCaixa.xcconfig */,
-				5353DEA1F56AC52E0073ACF40B0C94C9 /* GeoLocationCaixa-dummy.m */,
-				9FBCDF43826598A267651A976FF44C2F /* GeoLocationCaixa-prefix.pch */,
-				2FEBB977A45567084B6565ACE37C3ED0 /* GeoLocationCaixa-umbrella.h */,
-				0B0D411C0E74FC8C5902BEDE8C3597A7 /* Info.plist */,
+				CDE4BF03522D630A9A85406BCC384BDB /* SCLAlertView.framework */,
+				2AEE6F29D7B86CF00DE466D7EEB8FA53 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GeoLocationCaixa";
-			sourceTree = "<group>";
-		};
-		4FFAEA292F6AA5A4A4E1225E13A0FC30 /* GeoLocationCaixa */ = {
-			isa = PBXGroup;
-			children = (
-				11FD608C216D4BAD00372517 /* Classes */,
-				92C99D4455A1C6AAB40FCA51BB28F4F6 /* Pod */,
-				49E978BD5901E7C7BBE259A4199A2EE3 /* Support Files */,
-			);
-			name = GeoLocationCaixa;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5896C45A4BE4CF767E55DF3B55338C92 /* Targets Support Files */ = {
@@ -165,30 +210,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		665EFA93A9D43F1F3804AA2F18FEE0CE /* GeoLocationCaixa */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				8C62D1488471CBE78FDE45EECA53288F /* GCLocation.swift */,
+				EDC664300F6FBCF4D09CA855E390D7E1 /* Pod */,
+				F5A799E88BBD5CBF666C20BCE64A1B03 /* Support Files */,
 			);
-			name = iOS;
+			name = GeoLocationCaixa;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6CD0673F056D83706F88E83359444038 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FFAEA292F6AA5A4A4E1225E13A0FC30 /* GeoLocationCaixa */,
+				665EFA93A9D43F1F3804AA2F18FEE0CE /* GeoLocationCaixa */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		78A56DE17284185268EF43CEA02CC224 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				73522B978E5C45D20CF4902A99115B6E /* GeoLocationCaixa.framework */,
-				658DDAAAD800DAA821194E35EAEFF31A /* Pods_GeoLocationCaixa_Example.framework */,
-				B32C04A34633C950C1608085371A95CD /* Pods_GeoLocationCaixa_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -196,20 +234,11 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6CD0673F056D83706F88E83359444038 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				78A56DE17284185268EF43CEA02CC224 /* Products */,
+				526E92C1D4D8C5E30AA332A2CD8931D7 /* Frameworks */,
+				CE1D7C96A3A3C0CED68FBC36DB57C4C4 /* Pods */,
+				D4E03927BCFE35D1DF8D3AFCA006FBF3 /* Products */,
 				5896C45A4BE4CF767E55DF3B55338C92 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		92C99D4455A1C6AAB40FCA51BB28F4F6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DE4EBD340DA4B9D499ADB92E70BCB92C /* GeoLocationCaixa.podspec */,
-				7F718C69839F37E95DFE6F84A4A86F56 /* LICENSE */,
-				119BE77FEF4CB224F5004FE5FAFCFF80 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		940B0D48F163B0B6A3BC70F70EE59A2E /* Pods-GeoLocationCaixa_Tests */ = {
@@ -230,22 +259,65 @@
 			path = "Target Support Files/Pods-GeoLocationCaixa_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CE1D7C96A3A3C0CED68FBC36DB57C4C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				21236440975E0D8924F5FBFD0C9D1478 /* SCLAlertView */,
 			);
-			name = Frameworks;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4E03927BCFE35D1DF8D3AFCA006FBF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C19482911AA508A4DBC74954CE07429 /* GeoLocationCaixa.framework */,
+				AAC670DAC419E5F2470B3B0AE6B8459F /* Pods_GeoLocationCaixa_Example.framework */,
+				9BD2B9BAAA57D9EBA4292A203EE68E13 /* Pods_GeoLocationCaixa_Tests.framework */,
+				D359ECB868B80C86E14260A772E7FBFE /* SCLAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC664300F6FBCF4D09CA855E390D7E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4D40D10FC822489C99A9F823282E3C65 /* GeoLocationCaixa.podspec */,
+				C1E3256B85F9E89681DDBA2FA8B15C18 /* LICENSE */,
+				4155D351CD705A3797B23053053C648D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F5A799E88BBD5CBF666C20BCE64A1B03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD980CE6B010A5CC2E23221A6643D94 /* GeoLocationCaixa.modulemap */,
+				6DDFDAB86040FAA3732026A6A8267A8C /* GeoLocationCaixa.xcconfig */,
+				00236A30E95DFF3CEB841739BA057F84 /* GeoLocationCaixa-dummy.m */,
+				68446EF0E6AFB56A5E78CD3C4E812210 /* GeoLocationCaixa-prefix.pch */,
+				862C3CF9ED2B91AF696E70F809B6360C /* GeoLocationCaixa-umbrella.h */,
+				37DB804383F1A66EE27CD2E6E8E971C5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GeoLocationCaixa";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6A4602B7E924D8871EDD4E64388D30DD /* Headers */ = {
+		0A592DB30E86924B3EDAD6C39CF08744 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0C3E32A601A919B4E1CA1131C43283 /* GeoLocationCaixa-umbrella.h in Headers */,
+				A656C96F74846D172094ED6095244202 /* Pods-GeoLocationCaixa_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47764C8C65C37343F6EF3DD129CA14DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DBBE68E70F1030DF935FAB7E47793B /* SCLAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,32 +329,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		844840CC1DEEB02D15D938D936AEA90F /* Headers */ = {
+		E426F53C18AA530B3B9262EAC8846C58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C3558D8AEEC4BDD3E61C6C4072D0B1 /* Pods-GeoLocationCaixa_Example-umbrella.h in Headers */,
+				406B79ECC22425F1E185599705635C46 /* GeoLocationCaixa-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8923DA5206BE35272F2CE07756D9F2A3 /* GeoLocationCaixa */ = {
+		2D0C217A715E3304FA77F0FA8D592A0E /* Pods-GeoLocationCaixa_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFC8CD58EF364D69A44CE99F3ECEFDB2 /* Build configuration list for PBXNativeTarget "GeoLocationCaixa" */;
+			buildConfigurationList = 8563AB97825131B18CFC5EF4F788C53F /* Build configuration list for PBXNativeTarget "Pods-GeoLocationCaixa_Example" */;
 			buildPhases = (
-				8C670176263F09C23D7824528365A4E3 /* Sources */,
-				938D2AE46BC8630EC72B1F8FDECB11E3 /* Frameworks */,
-				6A4602B7E924D8871EDD4E64388D30DD /* Headers */,
+				FB7A5E92C04D8009B6374C569608DF1B /* Sources */,
+				B5C16F6EA44932A07E90C2C2061D83A2 /* Frameworks */,
+				0A592DB30E86924B3EDAD6C39CF08744 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555284B5809B2B516E558D9E07D0EF35 /* PBXTargetDependency */,
+				21090F169CF6E4F4AD8070594E073BDF /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoLocationCaixa_Example";
+			productName = "Pods-GeoLocationCaixa_Example";
+			productReference = AAC670DAC419E5F2470B3B0AE6B8459F /* Pods_GeoLocationCaixa_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4565A293997E913E58C4BA7AFBA02741 /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15327F2537AFBCAA7DAD48859DBF0DC6 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				AAE3BAEA36AC9A9D807CE1C61FFEF954 /* Sources */,
+				38C9091F7DD5109B656169E22F811333 /* Frameworks */,
+				47764C8C65C37343F6EF3DD129CA14DA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = D359ECB868B80C86E14260A772E7FBFE /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		502200534B0D021320B336B2352A0852 /* GeoLocationCaixa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96A18ADE73856C4A30170356908068D /* Build configuration list for PBXNativeTarget "GeoLocationCaixa" */;
+			buildPhases = (
+				9FBFF9B3FFBC4B9BFAB2E8AC0BA72D62 /* Sources */,
+				D51F75151A43E0D14CCBD348C59DC69D /* Frameworks */,
+				E426F53C18AA530B3B9262EAC8846C58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926CAE62AFAB94F71F81330A5528872E /* PBXTargetDependency */,
+			);
 			name = GeoLocationCaixa;
 			productName = GeoLocationCaixa;
-			productReference = 73522B978E5C45D20CF4902A99115B6E /* GeoLocationCaixa.framework */;
+			productReference = 0C19482911AA508A4DBC74954CE07429 /* GeoLocationCaixa.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B243B58DA7EED3B4902A0531F0DFE065 /* Pods-GeoLocationCaixa_Tests */ = {
@@ -300,25 +409,7 @@
 			);
 			name = "Pods-GeoLocationCaixa_Tests";
 			productName = "Pods-GeoLocationCaixa_Tests";
-			productReference = B32C04A34633C950C1608085371A95CD /* Pods_GeoLocationCaixa_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F77138169A5B5C1A3FDE0EF6D59DD824 /* Pods-GeoLocationCaixa_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11E840A47EFD04AECFEF8B595E2123C9 /* Build configuration list for PBXNativeTarget "Pods-GeoLocationCaixa_Example" */;
-			buildPhases = (
-				F53F9383883F5B4DBBE0581203702575 /* Sources */,
-				815B05E1A8574830BF56A18BE85A20E0 /* Frameworks */,
-				844840CC1DEEB02D15D938D936AEA90F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E7DF1839172DE6D8679C979938388C56 /* PBXTargetDependency */,
-			);
-			name = "Pods-GeoLocationCaixa_Example";
-			productName = "Pods-GeoLocationCaixa_Example";
-			productReference = 658DDAAAD800DAA821194E35EAEFF31A /* Pods_GeoLocationCaixa_Example.framework */;
+			productReference = 9BD2B9BAAA57D9EBA4292A203EE68E13 /* Pods_GeoLocationCaixa_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -329,11 +420,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					8923DA5206BE35272F2CE07756D9F2A3 = {
-						LastSwiftMigration = 0940;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,32 +429,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 78A56DE17284185268EF43CEA02CC224 /* Products */;
+			productRefGroup = D4E03927BCFE35D1DF8D3AFCA006FBF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8923DA5206BE35272F2CE07756D9F2A3 /* GeoLocationCaixa */,
-				F77138169A5B5C1A3FDE0EF6D59DD824 /* Pods-GeoLocationCaixa_Example */,
+				502200534B0D021320B336B2352A0852 /* GeoLocationCaixa */,
+				2D0C217A715E3304FA77F0FA8D592A0E /* Pods-GeoLocationCaixa_Example */,
 				B243B58DA7EED3B4902A0531F0DFE065 /* Pods-GeoLocationCaixa_Tests */,
+				4565A293997E913E58C4BA7AFBA02741 /* SCLAlertView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C670176263F09C23D7824528365A4E3 /* Sources */ = {
+		9FBFF9B3FFBC4B9BFAB2E8AC0BA72D62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11FD608F216D4BAE00372517 /* GCLocation.swift in Sources */,
-				FD0F5FF8A52A6C65D0178915E13F207E /* GeoLocationCaixa-dummy.m in Sources */,
+				5072FF650091B85A029FE89A605B1F44 /* GCLocation.swift in Sources */,
+				69AB4F75CB7A32FB7D9E030DF383E01E /* GeoLocationCaixa-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F53F9383883F5B4DBBE0581203702575 /* Sources */ = {
+		AAE3BAEA36AC9A9D807CE1C61FFEF954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACD4B860B72D40658F7710AA2C3A0B8 /* Pods-GeoLocationCaixa_Example-dummy.m in Sources */,
+				5EA58FFA01646F3B33139D95C501E94F /* SCLAlertView-dummy.m in Sources */,
+				2DCFC62A8702B25AA7F145EA9BC39C85 /* SCLAlertView.swift in Sources */,
+				5337E45A7DD925A036B82960437005B8 /* SCLExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,29 +469,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB7A5E92C04D8009B6374C569608DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C361A56AB951F70487A2C310464234 /* Pods-GeoLocationCaixa_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		21090F169CF6E4F4AD8070594E073BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 4565A293997E913E58C4BA7AFBA02741 /* SCLAlertView */;
+			targetProxy = 9D327EE99EBBA0C1FE0FCF8A1E20D2D1 /* PBXContainerItemProxy */;
+		};
 		39BC642F1088DE51C9B20EE404D72B23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GeoLocationCaixa_Example";
-			target = F77138169A5B5C1A3FDE0EF6D59DD824 /* Pods-GeoLocationCaixa_Example */;
+			target = 2D0C217A715E3304FA77F0FA8D592A0E /* Pods-GeoLocationCaixa_Example */;
 			targetProxy = 2A3FDEFD28C2282F0ED32A43EBC18DB8 /* PBXContainerItemProxy */;
 		};
-		E7DF1839172DE6D8679C979938388C56 /* PBXTargetDependency */ = {
+		555284B5809B2B516E558D9E07D0EF35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GeoLocationCaixa;
-			target = 8923DA5206BE35272F2CE07756D9F2A3 /* GeoLocationCaixa */;
-			targetProxy = 242B509503E21ABA2700F0C221478AC6 /* PBXContainerItemProxy */;
+			target = 502200534B0D021320B336B2352A0852 /* GeoLocationCaixa */;
+			targetProxy = BAF8B969B94920670A9331EF658A5575 /* PBXContainerItemProxy */;
+		};
+		926CAE62AFAB94F71F81330A5528872E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 4565A293997E913E58C4BA7AFBA02741 /* SCLAlertView */;
+			targetProxy = 362E9C7B9088473E93816DCDE1F70ABD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		148E684F0726DBDEF2347D2FB8085073 /* Release */ = {
+		1FBF88904CC6EE7B075AE7DBC1171785 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C5F0887F8F2C5B8098682EE35C193EA /* GeoLocationCaixa.xcconfig */;
+			baseConfigurationReference = 1B2E111A388DDCA4AA65A4732F633A42 /* SCLAlertView.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -412,14 +520,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GeoLocationCaixa/GeoLocationCaixa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GeoLocationCaixa/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GeoLocationCaixa/GeoLocationCaixa.modulemap";
-				PRODUCT_MODULE_NAME = GeoLocationCaixa;
-				PRODUCT_NAME = GeoLocationCaixa;
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -432,11 +540,80 @@
 			};
 			name = Release;
 		};
-		64E4343615F0704A9DDD27843731F727 /* Debug */ = {
+		2655191BB755F2B2DE4D89FFFDD8AABB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C5F0887F8F2C5B8098682EE35C193EA /* GeoLocationCaixa.xcconfig */;
+			baseConfigurationReference = 02734B1BA207DF782A458AA7A54E5DE6 /* Pods-GeoLocationCaixa_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Pods-GeoLocationCaixa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AC5CB9CC63F7E1A22C3E962D3AECC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A5987A9CB66CD16CE55A46E4D36F35 /* Pods-GeoLocationCaixa_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Pods-GeoLocationCaixa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		629FFF7F8852AA3B378D7C431632154B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDFDAB86040FAA3732026A6A8267A8C /* GeoLocationCaixa.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -595,41 +772,6 @@
 			};
 			name = Debug;
 		};
-		948B35FF187216351958CD2BE39C6117 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02734B1BA207DF782A458AA7A54E5DE6 /* Pods-GeoLocationCaixa_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Pods-GeoLocationCaixa_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -688,11 +830,10 @@
 			};
 			name = Release;
 		};
-		C90B29D8071C2F1B218E95BC90BD56AF /* Release */ = {
+		C2D77903C5A66DC971CE7FCF45113B05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82A5987A9CB66CD16CE55A46E4D36F35 /* Pods-GeoLocationCaixa_Example.release.xcconfig */;
+			baseConfigurationReference = 6DDFDAB86040FAA3732026A6A8267A8C /* GeoLocationCaixa.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -702,26 +843,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GeoLocationCaixa/GeoLocationCaixa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoLocationCaixa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GeoLocationCaixa_Example/Pods-GeoLocationCaixa_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GeoLocationCaixa/GeoLocationCaixa.modulemap";
+				PRODUCT_MODULE_NAME = GeoLocationCaixa;
+				PRODUCT_NAME = GeoLocationCaixa;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F484B7D1F00EC3366440DC327A10E896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2E111A388DDCA4AA65A4732F633A42 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -735,11 +907,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11E840A47EFD04AECFEF8B595E2123C9 /* Build configuration list for PBXNativeTarget "Pods-GeoLocationCaixa_Example" */ = {
+		15327F2537AFBCAA7DAD48859DBF0DC6 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				948B35FF187216351958CD2BE39C6117 /* Debug */,
-				C90B29D8071C2F1B218E95BC90BD56AF /* Release */,
+				F484B7D1F00EC3366440DC327A10E896 /* Debug */,
+				1FBF88904CC6EE7B075AE7DBC1171785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -753,11 +925,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFC8CD58EF364D69A44CE99F3ECEFDB2 /* Build configuration list for PBXNativeTarget "GeoLocationCaixa" */ = {
+		8563AB97825131B18CFC5EF4F788C53F /* Build configuration list for PBXNativeTarget "Pods-GeoLocationCaixa_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64E4343615F0704A9DDD27843731F727 /* Debug */,
-				148E684F0726DBDEF2347D2FB8085073 /* Release */,
+				2655191BB755F2B2DE4D89FFFDD8AABB /* Debug */,
+				4AC5CB9CC63F7E1A22C3E962D3AECC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96A18ADE73856C4A30170356908068D /* Build configuration list for PBXNativeTarget "GeoLocationCaixa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FFF7F8852AA3B378D7C431632154B /* Debug */,
+				C2D77903C5A66DC971CE7FCF45113B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

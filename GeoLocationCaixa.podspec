@@ -25,12 +25,12 @@ TODO: Componente da CAIXA para pegar geolocalização do device e mandar para o 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lucas Veras Aguiar Cardoso' => 'lucas.a.cardoso@capgemini.com' }
-  s.source           = { :git => 'https://github.com/LucasVeras/GeoLocationCaixa.git', :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/LucasVeras/GeoLocationCaixa.git", :commit => "7b9b0c3c10ec5678f81039bf32e069b251a2de7c", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'GeoLocationCaixa/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GeoLocationCaixa' => ['GeoLocationCaixa/Assets/*.png']
@@ -39,5 +39,5 @@ TODO: Componente da CAIXA para pegar geolocalização do device e mandar para o 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  #s.dependency 'SCLAlertView'
+  s.dependency 'SCLAlertView'
 end

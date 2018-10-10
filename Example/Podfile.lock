@@ -1,15 +1,22 @@
 PODS:
-  - GeoLocationCaixa (0.1.0)
+  - GeoLocationCaixa (1.0.1):
+    - SCLAlertView
+  - SCLAlertView (0.8)
 
 DEPENDENCIES:
   - GeoLocationCaixa (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SCLAlertView
 
 EXTERNAL SOURCES:
   GeoLocationCaixa:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GeoLocationCaixa: 6505f229acfb6958cf5f9ca83cf30191412a7c98
+  GeoLocationCaixa: b89cccde700432ac647572ea8d03ee0f5e1351a5
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
 
 PODFILE CHECKSUM: 553292c69c381338d078cf959f00ce71f8bce8d6
 
